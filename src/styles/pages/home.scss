@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato'), url(../fonts/Lato-Regular.ttf) format('truetype');
+}
+
+body {
+  font-family: "Lato";
+}
+
+.background-home {
+  //background: url("../../beach.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.home-card {
+  height: calc(100% - 1rem);
+  min-width: 600px;
+  width: calc(100% - 1rem);
+  flex-direction: column;
+}
+
+.form-group:last-child {
+  margin-bottom: 0;
+}
+
+.form-group input {
+  height: initial;
+  text-align: end;
+}
+
+.table-wrap {
+  max-width: -webkit-fill-available;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.table-wrap table td {
+  font-size: 40px;
+  line-height: initial;
+  text-align: center;
+}
+
+.loading {
+  background: url("../../loading.gif") no-repeat center / contain;
+}
